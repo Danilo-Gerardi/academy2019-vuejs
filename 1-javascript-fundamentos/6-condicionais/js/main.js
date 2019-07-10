@@ -21,7 +21,34 @@ const c = '5'
  - negação
 */
 
+
+console.log('igual a',b==c)
+console.log('idêntico a',b===c)
+console.log('diferente a',b!=c)
+console.log('realmente é diferente?',b!==c)
+console.log('maior que',a>b)
+console.log('menor que',a<b)
+console.log('maior ou igual',a>=b)
+console.log('menor ou igual que',a<=b)
+
 /*
  - If
  - ternário
 */
+
+
+if (4 > 2) {
+  console.log('é')  
+} else {
+  console.log('não é')
+}
+
+const maior = 4 > 6 ? 'é' : 'não é'
+
+console.log(maior)
+
+
+console.log('maior ->',a>b && b==c)
+console.log('maior ->',a>b || b==c)
+console.log('maior ->',!(a>b) && b==c)
+
